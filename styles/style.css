@@ -1,0 +1,511 @@
+.page {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 122px;
+  padding: 9px 130px 0 120px;
+}
+
+.logo {
+  color: #054C73;
+  font-family: 'montB', sans-serif;
+  font-size: 34px;
+  letter-spacing: 2px;
+}
+
+.nav {
+  display: flex;
+  gap: 70px;
+}
+
+.nav-item {
+  font-family: 'montS', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cover {
+  position: relative;
+  min-height: 749px;
+  background-image: url('../images/Mask\ Group.jpg');
+}
+
+.cover-card {
+  position: absolute;
+  top: 155px;
+  right: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 643px;
+  border-radius: 10px;
+  padding: 39px 45px 41px 40px;
+  background-color: #DFE9F4;
+}
+
+.cover-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'montS', sans-serif;
+}
+
+.cover-subtitle {
+  font-family: 'montB', sans-serif;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.cover-title {
+  width: 80%;
+  color: #054C73;
+  font-family: 'montS', sans-serif;
+  font-size: 52px;
+  line-height: 65px;
+  letter-spacing: 1.8px;
+}
+
+.cover-text { 
+  font-family: 'montM', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 37px;
+  letter-spacing: 1px;
+}
+
+.cover-btn {
+  max-width: 229px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50px;
+  padding: 27px 72px 25px;
+  background-color: #054C73;
+  transition: transform 0.3s ease;
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(0.95);
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.btn-text {
+  color: white;
+  font-family: 'montB', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 49px 100px 49px 120px;
+  background-color: #F2F5FF;
+}
+
+.info-container {
+  display: flex;
+  gap: 30px;
+}
+
+.info-img {
+  max-height: 50px;
+}
+
+.info-text-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.info-title {
+  font-family: 'montS', sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.info-text {
+  font-family: 'montM', sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  padding: 60px 0;
+}
+
+.coll-title-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.title {
+  font-family: 'montB', sans-serif;
+  font-size: 32px;
+  letter-spacing: 1.4px;
+}
+
+.subtitle {
+  font-family: 'montR', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1.25px;
+}
+
+.coll-img-cont {
+  display: flex;
+  gap: 40px;
+}
+
+.coll-img-card {
+  width: 355px;
+  height: 434px;
+}
+
+.coll-card-left {
+  margin-top: 38px;
+  background-image: url('../images/coll-img1.png');
+} 
+
+.coll-card-center {
+  background-image: url('../images/call-card2.png');
+}
+
+.coll-card-right {
+  margin-top: 38px;
+  background-image: url('../images/call-card3.png');
+}
+
+.space {
+  display: flex;
+  align-items: center;
+  gap: 62px;
+  min-height: 874px;
+  padding: 60px 135px 60px 161px;
+  background-color: #F2F5FF;
+}
+
+.space-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.space-text-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.space-title {
+  font-family: 'montB', sans-serif;
+  font-size: 32px;
+  letter-spacing: 1.4px;
+}
+
+.space-text {
+  width: 96%;
+  font-family: 'montR', sans-serif;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1.5px;
+}
+
+.space-btn {
+  width: 44%;
+  padding: 25px 0;
+}
+
+.space-img-cont {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.space-img-sirq {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.space-img {
+  margin-right: 68px;
+}
+
+.browse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 58px;
+  border-bottom: 1px #000 solid;
+  padding: 61px 129px;
+}
+
+.fake {
+  margin-bottom: 150px;
+}
+
+.fake-text-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.browse-img-left {
+  background-image: url('../images/browse1.png');
+}
+.browse-img-center {
+  background-image: url('../images/browse2.png');
+}
+.browse-img-right {
+  background-image: url('../images/browse3.png');
+}
+.works-img-left {
+  background-image: url('../images/works1.png');
+}
+.works-img-center {
+  background-image: url('../images/works2.png');
+}
+.works-img-right {
+  background-image: url('../images/works3.png');
+}
+
+.browse-img {
+  height: 480px;
+}
+
+.fake-img {
+  position: relative;
+  min-width: 381px;
+  min-height: 445px;
+  background-repeat: no-repeat;
+}
+
+.fake-card-list {
+  display: flex;
+  gap: 20px;
+}
+
+.fake-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.fake-img-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-family: 'montS', sans-serif;
+  font-size: 29px;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+  padding: 61px 129px;
+}
+
+.fake-circ-und {
+  position: absolute;
+  bottom: 0;
+  left: 38%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.fake-circ-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.fake-circ-text {
+  z-index: 2;
+  color: #fff;
+  font-family: 'montS', sans-serif;
+  font-size: 23px;
+  letter-spacing: -1px;
+}
+
+.fake-img-title {
+  font-family: 'montB', sans-serif;
+  font-size: 24px;
+}
+
+.fake-img-subtitle {
+  font-family: 'montR', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+.join {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+  padding: 57px 448px 60px;
+  background-color: #F2F5FF;
+}
+
+.join-form {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.join-text-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.join-subtitle {
+  width: 90%;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.email-input {
+  width: 331px;
+  min-height: 70px;
+  border: 1px solid #054C73;
+  border-radius: 3px 0 0 3px;
+  border-right: none;
+  padding: 12px 25px;
+  outline: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.email-input::placeholder {
+  color: #a1aebf;
+}
+
+.submit-btn {
+  width: 153px;
+  min-height: 70px;
+  border: 1px solid #054C73;
+  border-radius: 0 3px 3px 0;
+  padding: 12px 24px;
+  color: #fff;
+  font-family: 'montS', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background-color: #054C73;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #15334f;
+}
+
+.submit-text {
+  white-space: nowrap;
+}
+
+.footer {
+  display: flex;
+  padding: 49px 120px 89px;
+  color: #fff;
+  background-color: #03344F;
+}
+
+.footer-text-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 36%;
+}
+
+.footer-care {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  width: 90%;
+}
+
+.footer-title {
+  font-family: 'montS', sans-serif;
+  font-size: 24px;
+}
+
+.footer-subtitle {
+  font-family: 'montR', sans-serif;
+  line-height: 2.15;
+  letter-spacing: 1.1px;
+}
+
+.footer-shop {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 13px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 21px;
+}
+
+.footer-card {
+  width: 175px;
+  height: 185px;
+}
+
+.footer-card-first {
+  background-image: url('../images/footer-img1.jpg');
+}
+.footer-card-second {
+  background-image: url('../images/footer2.jpg');
+}
+.footer-card-third {
+  background-image: url('../images/footer3.jpg');
+}
+.footer-card-fourth {
+  background-image: url('../images/footer4.jpg');
+}
